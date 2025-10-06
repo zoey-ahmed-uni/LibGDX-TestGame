@@ -129,7 +129,7 @@ public class Main implements ApplicationListener{
 
     private void playMusic() {
         music.setLooping(true);
-        music.setVolume(.8f);
+        music.setVolume(1f);
         music.play();
     }
 }
